@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Teclas</title>
+</head>
+
+<body>
+    <div class="teclado">
+        <div class="esc">
+            <button id="1" class="esc" onkeypress="Pega_Tecla(e)"> Esc</button>
+        </div>
+        <div class="linha1">
+            <button id="2" onkeypress="Pega_Tecla(Tio)">~ `</button>
+            <button id="3" onkeypress="Pega_Tecla(num1)">! <br> 1</button>
+            <button id="4" onkeypress="Pega_Tecla(num2)">@ <br> 2</button>
+            <button id="5" onkeypress="Pega_Tecla(num3)"># <br> 3 </button>
+            <button id="6" onkeypress="Pega_Tecla(num4)"> $ <br> 4 </button>
+            <button id="7" onkeypress="Pega_Tecla(num5)">% <br> 5 </button>
+            <button id="8" onkeypress="Pega_Tecla(num6)">¨ <br> 6 </button>
+            <button id="9" onkeypress="Pega_Tecla(num7)">& <br> 7 </button>
+            <button id="10" onkeypress="Pega_Tecla(num8)"> * <br> 8 </button>
+            <button id="11" onkeypress="Pega_Tecla(num9)">( <br> 9 </button>  
+            <button id="12" onkeypress="Pega_Tecla(num0)"> ) <br> 0</button>
+            <button id="13" onkeypress="Pega_Tecla(minus)"> _ <br> - </button>
+            <button id="14" onkeypress="Pega_Tecla(more)"> = <br> + </button>
+            <button id="15" class="backspace" onkeypress="Pega_Tecla(backspace)">Backspace</button>
+        </div>
+        <div class="linha2">
+            <button id="16" class="tab" onkeypress="Pega_Tecla(tab)">Tab</button>
+            <button id="17" onkeypress="Pega_Tecla(q)"><span>Q</span> </button>
+            <button id="18" onkeypress="Pega_Tecla(w)"> W</button>
+            <button id="19" onkeypress="Pega_Tecla(e)"> E</button>
+            <button id="20" onkeypress="Pega_Tecla(r)"> R</button>
+            <button id="21" onkeypress="Pega_Tecla(t)"> T</button>
+            <button id="22" onkeypress="Pega_Tecla(y)"> Y</button>
+            <button id="23" onkeypress="Pega_Tecla(u)"> U</button>
+            <button id="24" onkeypress="Pega_Tecla(i)"> I</button>
+            <button id="25" onkeypress="Pega_Tecla(o)"> O</button>
+            <button id="26" onkeypress="Pega_Tecla(p)"> P</button>
+            <button id="27" onkeypress="Pega_Tecla(chavecolchabre)"> { <br> [</button>
+            <button id="28" onkeypress="Pega_Tecla(chavecolchfecha)"> } <br> ]</button>
+            <button id="29" onkeypress="Pega_Tecla(contrabarra)"> \ <br> |</button>
+        </div>
+
+        <div class="linha3">
+            <button id="30" class="capslock" onkeypress="Pega_Tecla(capslock)">CapsLock</button>
+            <button id="31" onkeypress="Pega_Tecla(a)">A</button>
+            <button id="32" onkeypress="Pega_Tecla(s)">S</button>
+            <button id="33" onkeypress="Pega_Tecla(d)">D</button>
+            <button id="34" onkeypress="Pega_Tecla(f)">F</button>
+            <button id="35" onkeypress="Pega_Tecla(g)">G</button>
+            <button id="36" onkeypress="Pega_Tecla(h)">H</button>
+            <button id="37" onkeypress="Pega_Tecla(j)">J</button>
+            <button id="38 onkeypress="Pega_Tecla(k)">K</button>
+            <button id="39" onkeypress="Pega_Tecla(l)">L</button>
+            <button id="40" onkeypress="Pega_Tecla(doispontos)">: <br> ;</button>
+            <button id="41" onkeypress="Pega_Tecla(aspas)">" <br> '</button>
+            <button id="42" class="enter" onkeypress="Pega_Tecla(enter)">Enter</button>
+        </div>
+
+        <div class="linha4">
+            <button id="43" class="shiftesq" onkeypress="Pega_Tecla(shiftesq)">Shift</button>
+            <button id="44" onkeypress="Pega_Tecla(z)">Z</button>
+            <button id="45" onkeypress="Pega_Tecla(x)">X</button>
+            <button id="46" onkeypress="Pega_Tecla(c)">C</button>
+            <button id="47" onkeypress="Pega_Tecla(v)">V</button>
+            <button id="48" onkeypress="Pega_Tecla(b)">B</button>
+            <button id="49" onkeypress="Pega_Tecla(n)">N</button>
+            <button id="50" onkeypress="Pega_Tecla(m)">M</button>
+            <button id="51" onkeypress="Pega_Tecla(flechaesq)"> < <br> , </button>
+            <button id="52" onkeypress="Pega_Tecla(flechadir)"> > <br> . </button>
+            <button id="53" onkeypress="Pega_Tecla(interroga)"> ? <br> /</button>
+            <button id="54" class="shiftdir" onkeypress="Pega_Tecla(shiftdir)"> Shift </button>
+        </div>
+        
+        <div class="linha5">
+            <button id="55" class="controlesq" onkeypress="Pega_Tecla(controlesq)">Crtl</button>
+            <button id="56" class="altesq"   onkeypress="Pega_Tecla(altesq)">Alt</button>
+            <button id="57" class="espaco" onkeypress="Pega_Tecla(space)"></button>
+            <button id="58" onkeypress="Pega_Tecla(altdir)">AltGr</button>
+            <button id="59" onkeypress="Pega_Tecla(controldir)">Crtl</button>
+            <div class="setinhas">
+                <button id="60" class="left" onkeypress="Pega_Tecla(left)">⬅</button>
+                <div class="setinhascimabaixo">
+                    <button id="61" class="up" onkeypress="Pega_Tecla(up)">⬆</button>
+                    <button id="62" class="down" onkeypress="Pega_Tecla(down)">⬇</button>
+                </div>
+                <button id="63" class="right" onkeypress="Pega_Tecla(right)">➡</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+
+    document.onkeydown = Pega_Tecla;
+
+    function Pega_Tecla(e) {
+
+        e = e || window.event;
+
+        tecla = e.keyCode;
+        console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+
+    }
+</script>
+
+</html>
